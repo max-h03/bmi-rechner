@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(130, 130, 255);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(70, 45, 255);
+    padding:6.5px;
+    
+}
+
+h1{
+    padding-left: 50px;
+}
+
+input{
+    padding: 10px;
+    width: 65%;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.gewicht-input{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.koerpergroesse-input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ausgabe{
+    background-color: white;
+    margin-top: 50px;
+    width: 65%;
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 3px;
+    padding: 30px;
+    
+}
+
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding-top: 5px;
+    text-align: center;
+    margin: -5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
+    border: solid 2px rgb(111, 111, 111);
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-right: 20px;
+
+}
+
+button:hover{
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
